@@ -2,7 +2,25 @@ This is a fork of [KeyboardJS](https://github.com/RobertWHurst/KeyboardJS) (orig
 
 I also added types from [@types/keyboardjs](https://www.npmjs.com/package/@types/keyboardjs).
 
--- original Readme below --
+To replace the current KeyboardJS implementation without having to rewrite all the `imports` throughout your codebase, you can use the tarball url in `package.json`:
+
+```
+{
+    "dependencies": {
+        ...
+        "keyboardjs": "https://registry.npmjs.org/@sladwig/keyboardjs/-/keyboardjs-2.6.1.tgz",
+        ...
+    }
+}
+```
+
+Use `npm view [package name] dist.tarball` to get the tarball of any npm package.
+
+Adding `resolutions` or using specific versions for KeyboardJS in your`package.json`, might help migrating to the new version.
+
+_original (maybe adapted) Readme below_
+
+---
 
 # KeyboardJS
 
@@ -27,7 +45,7 @@ from the dist folder in this repo. These files are
 a module loader such as [requireJS](http://requirejs.org/).
 
 ```shell
-npm install keyboardjs
+npm install @sladwig/keyboardjs
 ```
 
 Note that all key names can be found in [./locales/us.js](https://github.com/RobertWHurst/KeyboardJS/blob/master/locales/us.js).
