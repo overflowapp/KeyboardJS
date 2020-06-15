@@ -1,4 +1,4 @@
-This is a fork of [KeyboardJS](https://github.com/RobertWHurst/KeyboardJS) (original Readme below), since it seems a bit inactive. This fork adds a tiny change to better handle international keyboard layouts, by also looking at the `.key` value of a keyboard event.
+This is a fork of [KeyboardJS](https://github.com/sladwig/KeyboardJS) which is a fork of [KeyboardJS](https://github.com/RobertWHurst/KeyboardJS) (original Readme below), since it seems a bit inactive. This fork adds a tiny change to better handle international keyboard layouts, by also looking at the `.key` value of a keyboard event.
 
 I also added types from [@types/keyboardjs](https://www.npmjs.com/package/@types/keyboardjs).
 
@@ -8,7 +8,7 @@ To replace the current KeyboardJS implementation without having to rewrite all t
 {
     "dependencies": {
         ...
-        "keyboardjs": "https://registry.npmjs.org/@sladwig/keyboardjs/-/keyboardjs-2.6.1.tgz",
+        "keyboardjs": "https://registry.npmjs.org/@protoio-labs/keyboardjs/-/keyboardjs-2.6.1.tgz",
         ...
     }
 }
@@ -45,10 +45,10 @@ from the dist folder in this repo. These files are
 a module loader such as [requireJS](http://requirejs.org/).
 
 ```shell
-npm install @sladwig/keyboardjs
+npm install @protoio-labs/keyboardjs
 ```
 
-Note that all key names can be found in [./locales/us.js](https://github.com/RobertWHurst/KeyboardJS/blob/master/locales/us.js).
+Note that all key names can be found in [./locales/us.js](https://github.com/overflowapp/KeyboardJS/blob/master/locales/us.js).
 
 If you're looking for the previous v1.x.x release of KeyboardJS you can find it
 [here](https://github.com/RobertWHurst/KeyboardJS/tree/legacy).

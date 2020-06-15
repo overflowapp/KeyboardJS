@@ -18,11 +18,11 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/sladwig/KeyboardJS/issues"
+    "url": "https://github.com/overflowapp/KeyboardJS/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sladwig/KeyboardJS.git"
+    "url": "git+ssh://git@github.com/overflowapp/KeyboardJS.git"
   },
   "typings": "index.d.ts",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "sinon": "^1.15.3",
     "uglifyify": "^2.5.0"
   },
-  "homepage": "https://github.com/sladwig/KeyboardJS#readme",
+  "homepage": "https://github.com/overflowapp/KeyboardJS#readme",
   "directories": {
     "lib": "lib",
     "test": "test"
